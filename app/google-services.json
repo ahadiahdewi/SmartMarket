@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "476605900186",
+    "firebase_url": "https://smartmarket-6842e.firebaseio.com",
+    "project_id": "smartmarket-6842e",
+    "storage_bucket": "smartmarket-6842e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476605900186:android:dcb667efd5ebd95f",
+        "android_client_info": {
+          "package_name": "com.wildan.aha.smartmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476605900186-64l77jj3q5jo2k2t9fcocr04rqm15kc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wildan.aha.smartmarket",
+            "certificate_hash": "4ed45d42a5df5424e2b9c7631538c7c6fdfab2d5"
+          }
+        },
+        {
+          "client_id": "476605900186-06ip4fj3181nflkr6k01t1qlvka2elh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV2UMRKv0JOr-Ed6PC3KhgT370NJ3CrPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476605900186-06ip4fj3181nflkr6k01t1qlvka2elh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
