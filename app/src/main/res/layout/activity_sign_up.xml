@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUpActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textNamaPelangganSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            tools:targetApi="o"
+            android:textSize="16sp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:id="@+id/textAlamatPelangganSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:inputType="textPersonName"
+            tools:targetApi="o"
+            android:textSize="16sp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:id="@+id/textNotelpPelangganSignUp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor telepon"
+            android:inputType="phone"
+            android:textSize="16sp"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/textEmailSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            tools:targetApi="o"
+            android:textSize="16sp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:id="@+id/textPasswordSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:targetApi="o"
+            android:textSize="16sp"
+            style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <Button
+            android:id="@+id/btnSimpanSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="126sp"
+            android:gravity="center_horizontal"
+            android:text="simpan"
+            style="@style/Base.Widget.AppCompat.Button"/>
+
+    </LinearLayout>
+
+</ScrollView>

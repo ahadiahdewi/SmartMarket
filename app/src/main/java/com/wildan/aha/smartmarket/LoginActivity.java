@@ -69,23 +69,6 @@ public class LoginActivity extends AppCompatActivity {
                 login(email, password);
             }
         });
-
-//        buttonLogin.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                String email,password;
-//                email = textEmailAddress.getText().toString();
-//                password = textPassword.getText().toString();
-//                if(true){
-//                    sessionManagement.createLoginSession(email,password);
-//                    Intent i = new Intent(getApplicationContext(),MainActivity.class);
-//                    startActivity(i);
-//                }else{
-//                    Toast.makeText(getApplicationContext(),"Email dan Password salah",Toast.LENGTH_LONG).show();
-//                }
-//            }
-//        });
-
     }
 
     private void login(String email, String password) {
@@ -109,7 +92,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             });
-                    //
         } catch (Exception e) {
             Log.e("LoginError", e.getMessage());
         }
